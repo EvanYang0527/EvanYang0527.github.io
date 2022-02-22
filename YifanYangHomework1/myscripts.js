@@ -1,4 +1,4 @@
-fetch('http://192.168.1.122:8000/data.json')
+fetch('https://evanyang0527.github.io/Homework1/data.json')
     .then(function (response) {
         return response.json();
     }).then(function (apiJsonData) {
