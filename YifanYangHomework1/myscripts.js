@@ -1,4 +1,4 @@
-fetch('https://evanyang0527.github.io/Homework1/data.json')
+fetch('https://evanyang0527.github.io/YifanYangHomework1/data.json')
     .then(function (response) {
         return response.json();
     }).then(function (apiJsonData) {
