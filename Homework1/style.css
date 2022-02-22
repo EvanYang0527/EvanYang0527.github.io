@@ -1,0 +1,222 @@
+body {background-color: rgb(26, 25, 25); margin: 0%;}
+
+.title{
+    padding-top: 10px;
+    padding-left: 210px;
+    padding-bottom: 20px;
+}
+
+.shade2{
+    color: #e07b07; 
+    text-shadow: white 0.05em 0.05em 0em;
+    font-family: "Arial","sans-serif";
+    font-size: 23px;
+    margin-left: 280px;
+    margin-top: 80px;
+}
+
+.section1{
+    width: 800px;
+    height: 190px;
+    background-image: url("rodeo-drive.jpg");
+    background-size: 800px;
+    background-position-y: 240px;
+    border-style: solid;
+    border-color: rgb(26, 25, 25);
+}
+
+.head {
+    color: white; 
+    text-shadow: #e07b07 0.07em 0.07em 0em;
+    font-family: "Optima","sans-serif";
+    font-size: 17px;
+    text-decoration:none;
+    margin-left: 50px;
+}
+.head:hover {
+    color: #e07b07; 
+    text-shadow: white 0.07em 0.07em 0em;
+    text-decoration:none;
+}
+
+#section2{
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-bottom: 50px;
+}
+
+.section2div{
+    background-color : black;
+    width: 200px;
+    height: 320px;
+    margin: 10px;
+}
+
+.section2img{
+    width: 180px;
+    height: 100px;
+    margin: 10px;
+}
+
+.contentstyle{
+    color:white;
+    margin: 10px;
+    font-family: "Optima","sans-serif";
+}
+
+.contentstylesmall{
+    color:white;
+    margin: 10px;
+    font-family: "Optima","sans-serif";
+    font-size: 12px;
+}
+
+.section3content{
+    color:white;
+    margin: 10px;
+    font-family: "Optima","sans-serif";
+    font-size: 12px;
+    text-align:justify;
+}
+
+#section3{
+    background-color: black;
+    width: 800px;
+    height: 400px;
+    padding-left: 70px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section3left{
+    width: 350px;
+    margin: 1000px;
+}
+
+.section3img{
+    width: 300px;
+    display: inline-block;
+}
+
+.text{
+    display: inline-block;
+}
+
+.section4content{
+    color:white;
+    margin: 10px;
+    font-family: "Optima","sans-serif";
+    font-size: 12px;
+    width: 400px;
+    text-align:justify;
+}
+
+.section4titleup{
+    color:white;
+    margin-top: 100px;
+    font-family: "Optima","sans-serif";
+    font-size: 17px;
+    margin-left: 10px;
+    width: 400px;
+    font-weight: bold;
+}
+
+.section4title{
+    color:white;
+    font-family: "Optima","sans-serif";
+    font-size: 17px;
+    margin-top: 80px;
+    width: 400px;
+    text-align:right;
+    font-weight: bold;
+}
+
+.section4img{
+    width: 200px;
+    height: 150px;
+}
+
+.section4location{
+    padding-left: 90px;
+    padding-bottom: 100px;
+}
+
+.section4upimg{
+    width: 200px;
+    height: 150px;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    font-family: "Optima","sans-serif";
+    font-size: 10px;
+    width: 800px;
+    text-align: center;
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-right: 100px;
+
+}
+
+.left{
+    width: 270px;
+}
+
+.right{
+    width: 100px;
+}
+
+a{
+    color: white;
+    font-family: "Optima","sans-serif";
+    font-size: 10px;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+.pageimg{
+    background-image: linear-gradient(#e0780096, #e0780096),url("404-featured.jpg");
+    background-blend-mode: cover;
+    width: 800px;
+    height: 130px;
+    background-size: 800px;
+    background-position-y: 320px;
+    text-align: center;
+    padding-top: 60px;
+
+}
+
+.pagetext{
+    width: 800px;
+    text-align: center;
+    color: white;
+    font-family: "Optima","sans-serif";
+    font-size: 15px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+h2{
+    font-family: "Optima","sans-serif";
+}
+
+.head2{
+    color: #e07b07; 
+    text-shadow: white 0.07em 0.07em 0em;
+    font-family: "Optima","sans-serif";
+    font-size: 17px;
+    text-decoration:none;
+    margin-left: 50px;
+}
+
+.head2:hover{
+    color: white; 
+    text-shadow: #e07b07 0.07em 0.07em 0em;
+    text-decoration: none;
+}
