@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+    <title>Yifan Yang Homework2</title>
+    <style>
+        h1{
+    color:#990000;
+    margin-left: 380px;
+}
+
+h4{
+    color:#FFC72C;
+    margin-left: 370px;
+}
+
+.small::after {
+    width: 100px;
+    content:" * ";
+    color: red;
+}
+
+.big{
+    margin: 100px;
+    margin-left: 400px;
+    padding:0;
+    height: 10px;;
+    width:1000px;
+    display: flex;
+}
+
+input{
+    width:200px;
+    height: 20px
+
+}
+
+.cal{
+    margin-left: 400px;
+    width: 100px
+}
+
+p{
+    margin-left: 400px;
+}
+
+    </style>
+
+</head>
+<body>
+    <h1>Blood Pressure Predictor</h1>
+    <h4>Fill out the form fo get your Blood Pressure estimate!</h4>
+
+
+    <form method="post">
+    <div class = 'big'>
+        <div class = 'small'>Age</div>
+        <input type = "number"
+        placeholder = "Enter Age in years"
+        title="Please enter a number" name = "age"
+        required >
+    </div>
+    <div class = 'big'>
+        <div class = 'small'>Weight</div>
+        <input type = "number"
+        placeholder = "Enter Weight in Kg"
+        title="Please enter a number" name = "weight"
+        required >
+    </div>
+
+        <input type="submit" value="Calculate" class = "cal">
+    </form>
+
+    <p><strong>{{pressure}}</strong></p>
+
+</body>
