@@ -24,7 +24,7 @@ h2{
 
 h3{
     font-family: 'Montserrat', sans-serif;
-    color: #473C33;
+    color: rgb(103, 45, 0);
 }
 
 p{
@@ -48,7 +48,7 @@ hr{
 
 .project-link{
     font-family: 'Montserrat', sans-serif;
-    color: #473C33;
+    color: rgb(103, 45, 0);
     /* text-decoration: none; */
 }
 
@@ -90,10 +90,16 @@ a:hover{
     text-align: left;
 }
 
-.skill-img{
+.skill-img-left{
     width: 25%;
     float: left;
     margin-right: 30px;
+}
+
+.skill-img-right{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
 }
 
 .intro{
