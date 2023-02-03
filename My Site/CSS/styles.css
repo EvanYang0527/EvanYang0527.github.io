@@ -60,6 +60,7 @@ a:hover{
     padding-top: 100px;
     position: relative;
     background-color: #E4DDA8;
+    overflow: hidden
 }
 
 .middle-container{
